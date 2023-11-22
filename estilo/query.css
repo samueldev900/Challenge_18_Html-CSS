@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap');
+
+:root{  
+    --cor0:hsl(257, 40%, 49%);
+    --cor1:hsl(300, 69%, 71%);
+}
+@media screen and (min-width:1440px) {
+
+    body{
+     background: url(../images/bg-desktop.svg) no-repeat;
+     background-size: cover;
+     background-color: var(--cor0);
+    }
+    .logo-png{
+        margin-top: 42px;
+        margin-left: 80px;
+        width: 160px;
+    }
+    header{
+
+        height: 160px;
+    }
+    main{
+        display: grid;
+        grid-template-columns: 795px 580px;
+        align-items: end;
+        width: 100vh;
+        margin-top: 40px;
+    }
+    img{
+        width: 795px;
+    }
+
+}
