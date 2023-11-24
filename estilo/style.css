@@ -50,6 +50,7 @@ article p{
     margin-top: 42px;
     margin-left: 40px;
     width: 120px;
+    cursor: pointer;
 }
 img{
     margin-top: 25px;
@@ -80,4 +81,9 @@ button{
     border-radius: 50%;
     border: 1px solid white;
     background-color: var(--cor0);
+    cursor: pointer;
+}
+#icons:hover{
+    border: 1px solid var(--cor1);
+    color: var(--cor1);
 }
