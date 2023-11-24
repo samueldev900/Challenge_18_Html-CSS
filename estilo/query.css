@@ -9,16 +9,21 @@
 @media screen and (min-width:1440px) {
 
     body{
+        height: 100vh;
         justify-content: center;
+        align-items: center;
         background: url(../images/bg-desktop.svg) no-repeat;
         background-size: cover;
         background-color: var(--cor0);
     }
     main{
         display: grid;
-        grid-template-columns: 795px 580px;
+        grid-template-columns: 700px 580px;
+        grid-template-rows: 430px 100px;
+        place-items: center;
         width: 1375px;
-        margin-top: 40px;
+        margin-top: 150px;
+
     }
     article{
         width: 520px;
@@ -41,10 +46,13 @@
         width: 200px;
     }
     header{
+        position: fixed;
+        top: 0;
         height: 160px;
+
     }
     img{
-        width: 795px;
+        width: 600px;
     }
     button{
         width: 200px;

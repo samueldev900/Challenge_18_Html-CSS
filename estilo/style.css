@@ -40,9 +40,7 @@ header{
     align-self: baseline;
     height: 100px;
 }
-article{
-    margin-top: 70px;
-}
+
 article p{
     margin-top: 25px;
 }
@@ -55,6 +53,7 @@ article p{
 img{
     margin-top: 25px;
     width: 295px;
+    margin: 0;
 }
 
 button{
